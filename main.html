@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/2d87efcd50.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <p id="head">StockSubway.com</p>
+        <div id="searchBar">
+            <input type="text" id="search"/>
+            <div id="searchList"><ul id="ul"></ul></div>
+        </div>
+        <div id="senNif"><p id="sensex" style="display: 'block';">Sensex:   54191   <p style="font-size: small; color:#4cd137"> +0.82%</p></p><br><p id="nifty" style="display: 'block';">Nifty:  16124  <p style="font-size: small; color:#4cd137">+0.84%</p></p></div>
+    </div>
+    <div id="stockHead">
+        <p id="symbol"></p>
+        <p id="price" style="display: inline-flex;"></p>
+        <p id="updown" style="display: inline-flex; margin-left: 40px; font-size: 16px;"></p>
+        <div id="toggle"><p>Line</p><input type="checkbox" name="" id="switch"><label for="switch"></label><p>CandleStick</p></div>
+    </div>
+    <div id="timeseries">
+        <button id="intra"><p>Intraday</p></button>
+        <button id="daily"><p>Daily (1 Month)</p></button>
+        <button id="weekly"><p>Weekly (8 Months)</p></button>
+        <button id="monthly"><p>Monthly (2 Year)</p></button>
+    </div>
+    <div id="chart"><img src="" alt="" id="graphImg"></div>
+    <div id="overview" style="display: inline-flex;"><p id="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, architecto rem voluptatem quos quasi veritatis porro debitis labore officia adipisci fugiat quis numquam aut officiis necessitatibus molestiae error. Saepe, quae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, facere? Recusandae hic perspiciatis in quibusdam magni enim consequatur quasi fugiat.</p><table id="table"></table></div>
+    <div id="news"><p style="background-color: #ddd; width: 100%; height: fit-content;">NEWS & SENTIMENTS</p><br></div>
+    <script src="main.js"></script>
+    <script src="overview.js"></script>
+    <script src="graphMaker.js"></script>
+</body>
+</html>
+
