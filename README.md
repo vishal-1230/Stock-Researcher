@@ -8,4 +8,4 @@ For getting the stock data, I've used Alpha-Vantage API. I just had the free sub
 (Each letter typed in search box, calls the api. One call is made for getting the news & sentiments and two calls are made when you search for the stock to get price data & overview of company)
 
 LEARNINGS:
-I learnt to work with public APIs, how to fetch them, how to extract the json data, how async await works. Also learnt about get and post requests a little bit.
+I learnt to work with public APIs, how to fetch them, how to extract the json data, how async await works. Also learnt about get and post requests.
